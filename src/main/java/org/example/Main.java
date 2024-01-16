@@ -39,7 +39,7 @@ public class Main extends Application {
     private static DataSource setupDataSource() {
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/library"); // Replace 'your_database_name' with your actual database name
+        dataSource.setUrl("jdbc:mysql://localhost:3306/library"); 
         dataSource.setUsername("abdo");
         dataSource.setPassword("abdo");
         return dataSource;

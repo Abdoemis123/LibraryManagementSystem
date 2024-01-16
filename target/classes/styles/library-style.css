@@ -1,0 +1,37 @@
+.root {
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-base: #37474F;  /* Dark Blue-Grey */
+    -fx-background: #ECEFF1;  /* Light Blue-Grey */
+}
+
+.button {
+    -fx-background-color: #FFC107;  /* Amber */
+    -fx-font-weight: bold;
+    -fx-text-fill: #263238;  /* Dark Grey */
+}
+
+.text-field {
+    -fx-background-color: #FFFFFF;  /* White */
+    -fx-border-color: #B0BEC5;  /* Light Blue-Grey */
+    -fx-border-radius: 5;  /* Rounded corners */
+}
+
+.table-view {
+    -fx-background-color: #FFFFFF;  /* White */
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: #B0BEC5;  /* Light Blue-Grey */
+}
+
+.column-header-background {
+    -fx-background-color: #90A4AE;  /* Blue-Grey */
+    -fx-text-fill: #263238;  /* Dark Grey */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #E0E0E0;  /* Light Grey for odd rows */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #81D4FA;  /* Light Blue for selected rows */
+    -fx-text-fill: #263238;  /* Dark Grey for selected text */
+}
